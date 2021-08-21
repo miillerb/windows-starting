@@ -1,4 +1,4 @@
-# windows Post Installation
+# Windows Post Installation
 
 Easy step by step for post installation of Microsoft Windows.
 
