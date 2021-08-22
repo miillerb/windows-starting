@@ -13,10 +13,11 @@ choco install zoom -fy
 
 :: Text editors / IDEs
 #choco install visualstudiocode -fy
-choco install obsidian
+choco install obsidian -fy
 
 :: Media
 choco install vlc -fy
+choco install 4k-video-downloader -fy
 
 :: Tools
 choco install powertoys -fy
