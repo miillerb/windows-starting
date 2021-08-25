@@ -32,5 +32,6 @@ choco install telegram -fy
 #choco install office365proplus -fy
 
 :: Utilities and others
+choco install google-drive-file-stream
 choco install revo-uninstaller -fy
 choco install evernote -fy
