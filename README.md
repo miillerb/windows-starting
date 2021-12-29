@@ -7,7 +7,7 @@ Easy step by step for post installation of Microsoft Windows.
 - Configurate windows user details: Dark Mode, inversion color and others
 
 
-#### Via Windows Package Manager CLI (aka winget)
+### Windows Terminal Via Windows Package Manager CLI (aka winget)
 
 [winget](https://github.com/microsoft/winget-cli) users can download and install
 the latest Terminal release by installing the `Microsoft.WindowsTerminal`
