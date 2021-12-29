@@ -6,6 +6,19 @@ Easy step by step for post installation of Microsoft Windows.
 - Install programs with Packages Managers and Scripts: Chocolatey and Winget;
 - Configurate windows user details: Dark Mode, inversion color and others
 
+### Use of Chocolatey Package Manager
+
+```powershell
+Get-ExecutionPolicy
+```
+
+```powershell
+Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process
+```
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 ### Windows Terminal Via Windows Package Manager CLI (aka winget)
 
